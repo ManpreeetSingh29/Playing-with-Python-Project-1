@@ -7,8 +7,8 @@ Demonstration of pie charts
 import matplotlib.pyplot as plt
 import numpy
 
-labels  = 'bob','charlie','alice','jake',
-sizes   = [20,54,16,10]
+labels = 'bob', 'charlie', 'alice', 'jake',
+sizes = [20, 54, 16, 10]
 explode = (0, 0.1, 0, 0)
 
 plt.pie(sizes, explode, labels)
