@@ -13,7 +13,7 @@ plotting the following curves:-
 
 import numpy as np
 import matplotlib.pyplot as plt
-fig, plots = plt.subplots(2,2)
+fig, plots = plt.subplots(2, 2)
 
 x = range(1, 100, 1)
 y = []
