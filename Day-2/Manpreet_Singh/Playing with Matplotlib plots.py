@@ -7,8 +7,6 @@ x1 = range(10)
 plt.plot(x1, [xi * 2 for xi in x1])
 plt.show()
 
-
-
 # 2 Pie-Chart
 
 days = [1, 2, 3, 4, 5]
@@ -19,14 +17,14 @@ working =[7, 8, 7, 2, 2]
 playing = [8, 5, 7, 8, 13]
 slices = [7, 2, 2, 13, 4]
 gaming = [9, 7, 6, 8, 3]
-activities = ['sleeping','eating','working','playing','gaming']
+activities = ['sleeping', 'eating', 'working', 'playing', 'gaming']
 cols = ['c', 'm', 'r', 'b', 'y']
  
 plt.pie(slices, 
 labels=activities, 
 colors=cols, 
-startangle=90,shadow= True, 
-explode = (0, 0.1, 0, 0, 0), 
+startangle=90,shadow=True, 
+explode=(0, 0.1, 0, 0, 0), 
 autopct='%1.1f%%')
 
 plt.title('Pie Plot')
