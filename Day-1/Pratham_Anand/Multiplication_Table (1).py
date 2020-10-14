@@ -1,19 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
+# In[8]:
 
 
-num = int(input("Enter the number: "))
-
-print("Multiplication Table of", num)
-
-for i in range(1, 11):
-    print(num, "X", i, "=",  num * i)
+def main() :
+    num = int(input("enter a number :"))
+    for i in range(1, 11) :
+        print(num * i)
 
 
-# In[ ]:
-
-
-
-
+if __name__ == "__main__" :
+    main()
