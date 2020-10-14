@@ -11,8 +11,8 @@ from mathparse import mathparse
 print("math parse demonstration")
 
 ans = mathparse.parse('50 * (90 / 29) + 2')
-number = mathparse.parse('ten * nine', language = 'ENG' )
-ans2 = mathparse.parse("49 plus eight plus 10",language="ENG")
+number = mathparse.parse('ten * nine', language='ENG')
+ans2 = mathparse.parse("49 plus eight plus 10", language="ENG")
 
 print(ans2)
 print(number)
