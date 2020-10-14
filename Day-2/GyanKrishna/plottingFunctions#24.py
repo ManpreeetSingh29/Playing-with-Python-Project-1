@@ -18,7 +18,7 @@ xsq = []
 for i in x:
     xsq.append(i**2)
 
-x_deg = np.arange(0, np.pi*4, 0.1)
+x_deg = np.arange(0, np.pi * 4, 0.1)
 amplitude_sin = np.sin(x_deg)
 amplitude_tan = np.tan(x_deg)
 
