@@ -20,7 +20,7 @@ gaming = [9, 7, 6, 8, 3]
 activities = ['sleeping', 'eating', 'working', 'playing', 'gaming']
 cols = ['c', 'm', 'r', 'b', 'y']
 
-plt.pie(slices, 
+plt.pie(slices,
         labels=activities,
         colors=cols,
         startangle=90, shadow=True,
