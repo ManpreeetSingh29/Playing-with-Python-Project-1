@@ -5,7 +5,6 @@ Created on Wed Oct 14 13:30:34 2020
 Demonstration of pie charts
 """
 import matplotlib.pyplot as plt
-import numpy
 
 labels = 'bob', 'charlie', 'alice', 'jake',
 sizes = [20, 54, 16, 10]
