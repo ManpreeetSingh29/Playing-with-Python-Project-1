@@ -1,19 +1,15 @@
 
-#1 Linear Graph
+# 1 Linear Graph
 
 import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
 
 x1 = range(10)
-plt.plot(x1, [xi*2 for xi in x1])
+plt.plot(x1, [xi * 2 for xi in x1])
 plt.show()
 
 
 
-#2  Pie-Chart
-
-import matplotlib.pyplot as plt
+# 2 Pie-Chart
 
 days = [1, 2, 3, 4, 5]
  
@@ -30,15 +26,14 @@ plt.pie(slices,
 labels=activities,
 colors=cols,
 startangle=90,shadow= True,
-explode = (0,0.1,0,0,0),
+explode = (0, 0.1, 0, 0, 0),
 autopct='%1.1f%%')
 
 plt.title('Pie Plot')
 plt.show()
 
-#3 Scatter Plot
+# 3 Scatter Plot
 
-import matplotlib.pyplot as plt
 x = [2, 4, 2, 2.5, 3, 3.5, 3.6]
 y = [7.5, 8, 8.5, 9, 9.5, 10, 10.5]
 
@@ -47,11 +42,7 @@ y1 = [6, 5, 3.7, 4, 4.5, 5, 5.2]
 
 plt.scatter(x, y, label='high budget low expenditure', color='r')
 plt.scatter(x1, y1, label='low budget high expenditure', color='y')
-plt.xlabel('Budget*1000')
-plt.ylabel('Expenditure*1000')
+plt.xlabel('Budget * 1000')
+plt.ylabel('Expenditure * 1000')
 plt.legend()
 plt.show()
-
-
-
-
